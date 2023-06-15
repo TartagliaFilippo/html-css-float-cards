@@ -1,0 +1,76 @@
+/* GENERICS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+}
+
+img {
+  min-width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 10px;
+}
+
+/* UTILS */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* TITLE AND PARAGRAPH */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: #e53170;
+  margin: 50px 0;
+}
+
+.container > p {
+  margin: 30px 0;
+}
+
+/* STRUCTURE CARDS */
+.container_cards {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.cards {
+  display: inline-block;
+  width: 30%;
+  background-color: #0f0e17;
+  margin: 20px 1%;
+  box-shadow: -7px 6px 9px 0;
+}
+
+.informations {
+  margin: 20px auto;
+}
+
+/* COLORE TESTO CARDS */
+h3,
+.task {
+  color: #fffffe;
+  text-align: left;
+}
+
+/* LINK MAIL CARDS */
+a {
+  display: block;
+  color: #43bee6;
+  font-size: 14px;
+  text-align: left;
+}
